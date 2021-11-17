@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: toMatchSnapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  testID="welcomeScreen"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFC0CB",
+        "borderRadius": 30,
+        "height": 45,
+        "marginBottom": 20,
+        "width": "70%",
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Email."
+      placeholderTextColor="#003f5c"
+      style={
+        Object {
+          "flex": 1,
+          "height": 50,
+          "marginLeft": 20,
+          "padding": 10,
+        }
+      }
+      testID="#email"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFC0CB",
+        "borderRadius": 30,
+        "height": 45,
+        "marginBottom": 20,
+        "width": "70%",
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Password."
+      placeholderTextColor="#003f5c"
+      secureTextEntry={true}
+      style={
+        Object {
+          "flex": 1,
+          "height": 50,
+          "marginLeft": 20,
+          "padding": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "height": 30,
+          "marginBottom": 30,
+        }
+      }
+    >
+      Forgot Password?
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FF1493",
+        "borderRadius": 25,
+        "height": 50,
+        "justifyContent": "center",
+        "marginTop": 40,
+        "opacity": 1,
+        "width": "80%",
+      }
+    }
+    testID="touchable"
+  >
+    <Text>
+      LOGIN
+    </Text>
+  </View>
+</View>
+`;
